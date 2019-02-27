@@ -1,0 +1,31 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: sb-cloud-config
+  cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/youxiu326/sb_cloud_config_repo
+            username: youxiu326
+            password: lihui2473538988
+            basedir: D:\sortware\IDEA\package\sb_springcloud_package\basedir
+            #searchPaths: spring-cloud/helloworldConfig
+  #RebbitMq
+  rabbitmq:
+    host: 39.108.85.204
+    port: 5672
+    username: guest
+    password: guest
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://39.108.85.204:8761/eureka/
+
+# 关闭安全验证
+management:
+  security:
+     enabled: false
