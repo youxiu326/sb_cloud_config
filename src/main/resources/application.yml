@@ -24,7 +24,8 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://39.108.85.204:8761/eureka/
-
+  instance:
+    prefer-ip-address: true
 # 关闭安全验证
 management:
   security:
