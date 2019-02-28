@@ -25,7 +25,13 @@ eureka:
     serviceUrl:
       defaultZone: http://39.108.85.204:8761/eureka/
   instance:
+    #注册时使用ip而不是主机名
     prefer-ip-address: true
+    #指定此实例的ip
+    ip-address: 39.108.85.204
+
+# 博客: https://www.cnblogs.com/moonandstar08/p/7571610.html
+
 # 关闭安全验证
 management:
   security:
