@@ -10,7 +10,7 @@ spring:
           git:
             uri: https://github.com/youxiu326/sb_cloud_config_repo
             username: youxiu326
-            password: lihui2473538988
+            password: 123456
             basedir: D:\sortware\IDEA\package\sb_springcloud_package\basedir
             #searchPaths: spring-cloud/helloworldConfig
   #RebbitMq
